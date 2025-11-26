@@ -2,14 +2,41 @@
   "dns": {
     "servers": [
       {
-        "tag": "hosts_internal",
+        "tag": "my_hosts",
         "type": "hosts",
         "predefined": {
           "hqlsecure.top": "192.168.124.60",
           "nas.hqlsecure.top": "192.168.124.60",
-          "zy.hqlsecure.top": "192.168.124.60",
-          "*.hqlsecure.top": "192.168.124.60",
-          "www.hqlsecure.top": "192.168.124.60"
+          "ab.hqlsecure.top": "192.168.124.60",
+          "alist.hqlsecure.top": "192.168.124.60",
+          "draw.hqlsecure.top": "192.168.124.60",
+          "dsm.hqlsecure.top": "192.168.124.60",
+          "ebh.hqlsecure.top": "192.168.124.60",
+          "emby.hqlsecure.top": "192.168.124.60",
+          "file.hqlsecure.top": "192.168.124.60",
+          "im.hqlsecure.top": "192.168.124.60",
+          "jf.hqlsecure.top": "192.168.124.60",
+          "mp.hqlsecure.top": "192.168.124.60",
+          "nrm.hqlsecure.top": "192.168.124.60",
+          "pdf.hqlsecure.top": "192.168.124.60",
+          "portainer.hqlsecure.top": "192.168.124.60",
+          "pw.hqlsecure.top": "192.168.124.60",
+          "qb.hqlsecure.top": "192.168.124.60",
+          "rd.hqlsecure.top": "192.168.124.60",
+          "reader.hqlsecure.top": "192.168.124.60",
+          "sb.hqlsecure.top": "192.168.124.60",
+          "send.hqlsecure.top": "192.168.124.60",
+          "share.hqlsecure.top": "192.168.124.60",
+          "tmw.hqlsecure.top": "192.168.124.60",
+          "tower.hqlsecure.top": "192.168.124.60",
+          "tv.hqlsecure.top": "192.168.124.60",
+          "ur.hqlsecure.top": "192.168.124.60",
+          "wd.hqlsecure.top": "192.168.124.60",
+          "wx.hqlsecure.top": "192.168.124.60",
+          "xl.hqlsecure.top": "192.168.124.60",
+          "xy.hqlsecure.top": "192.168.124.60",
+          "xyi.hqlsecure.top": "192.168.124.60",
+          "zy.hqlsecure.top": "192.168.124.60"
         }
       },
       {
@@ -35,7 +62,7 @@
         "domain_suffix": [
           "hqlsecure.top"
         ],
-        "server": "hosts_internal"
+        "server": "my_hosts"
       },
       {
         "clash_mode": "direct",
