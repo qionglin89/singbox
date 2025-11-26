@@ -2,12 +2,13 @@
   "dns": {
     "servers": [
       {
-        "tag": "my_hosts",
+        "tag": "hosts_internal",
         "type": "hosts",
         "predefined": {
           "hqlsecure.top": "192.168.124.60",
+          "nas.hqlsecure.top": "192.168.124.60",
           "zy.hqlsecure.top": "192.168.124.60",
-          "*.hqlsecure.top": "192.168.124.60"
+          "www.hqlsecure.top": "192.168.124.60"
         }
       },
       {
@@ -33,7 +34,7 @@
         "domain_suffix": [
           "hqlsecure.top"
         ],
-        "server": "my_hosts"
+        "server": "hosts_internal"
       },
       {
         "clash_mode": "direct",
