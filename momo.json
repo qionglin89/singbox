@@ -6,7 +6,7 @@
         "type": "hosts",
         "predefined": {
           "hqlsecure.top": "192.168.124.60",
-          "nas.hqlsecure.top": "192.168.124.60",
+          "zy.hqlsecure.top": "192.168.124.60",
           "*.hqlsecure.top": "192.168.124.60"
         }
       },
