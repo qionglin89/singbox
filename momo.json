@@ -21,7 +21,7 @@
           "pdf.hqlsecure.top": "192.168.124.60",
           "portainer.hqlsecure.top": "192.168.124.60",
           "pw.hqlsecure.top": "192.168.124.60",
-          "qb.hqlsecure.top": "192.168.124.3",
+          "qb.hqlsecure.top": "192.168.124.60",
           "rd.hqlsecure.top": "192.168.124.60",
           "reader.hqlsecure.top": "192.168.124.60",
           "sb.hqlsecure.top": "192.168.124.60",
@@ -429,6 +429,13 @@
       {
         "clash_mode": "global",
         "outbound": "GLOBAL"
+      },
+      {
+        "domain_suffix": [
+          "kuajingmaihuo.com",
+          "agentseller.temu.com"
+        ],
+        "outbound": "🎯 全球直连"
       },
       {
         "rule_set": "geosite-ai",
